@@ -1,0 +1,126 @@
+﻿<div class="container-fluid">
+    <h1>Szakmai záróvizsga template</h1>
+    <p>
+        Ez a projekt a Verebélÿ László Technikum 21/22-es tanév
+        Szoftverfejlesztő és -tesztelő két éves technikus képzésének záróvizsgájára készült,
+        hogy kiindulási alapként szolgáljon a "komplex webes és adatbázis kezelési feladatrész" 
+        megvalósításához.
+    </p>
+    <p>
+        Képzésünket a .NET Framework 4.8-as verzióján kezdtük, ami a képzés végére 'legacy' státuszba került, 
+        így jelenleg körülményes az alapok beállítása. 
+        Ezen custom template célja, hogy a vizsgatevékenység során a lényegre tudjunk koncentrálni.
+        Tartalmazza az ASP.NET (Framework) MVC5 project templatebe integrált technológiák legfrissebb változatait,
+        és az ezek telepítését követően szükséges minimális változtatásokat, beállításokat.
+    </p>
+    <br />
+</div>
+
+<div class="row">
+    <div class="col-md-5">
+        <h2>NuGet Pacgages:</h2>
+        <p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Név</th>
+                        <th>verzió</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bootstrap</td>
+                        <td>5.1.3</td>
+                    </tr>
+                    <tr>
+                        <td>EntityFramework</td>
+                        <td>6.4.4</td>
+                    </tr>
+                    <tr>
+                        <td>jQuery</td>
+                        <td>3.6.0</td>
+                    </tr>
+                    <tr>
+                        <td>jQuery Validation</td>
+                        <td>1.19.3</td>
+                    </tr>
+                    <tr>
+                        <td>ASP.NET Identity</td>
+                        <td>2.2.3</td>
+                    </tr>
+                    <tr>
+                        <td>ASP.NET MVC</td>
+                        <td>5.2.7</td>
+                    </tr>
+                    <tr>
+                        <td>ASP.NET Razor</td>
+                        <td>3.2.7</td>
+                    </tr>
+                    <tr>
+                        <td>Roslyn</td>
+                        <td>3.6.0</td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft OAuth</td>
+                        <td>4.2.0</td>
+                    </tr>
+                    <tr>
+                        <td>Modernizr</td>
+                        <td>2.8.30</td>
+                    </tr>
+                    <tr>
+                        <td>Newtonsoft Json</td>
+                        <td>13.0.1</td>
+                    </tr>
+                    <tr>
+                        <td>SQL Server</td>
+                        <td>15.0.4153</td>
+                    </tr>
+                </tbody>
+            </table>
+        </p>
+    </div>
+    <div class="col-md-7">
+        <h2>Egyéb módosítások:</h2>
+        <p>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    ASP.NET Web Application (.NET Framework) template-et használunk
+                </li>
+                <li class="list-group-item">
+                    a keretrendszer 4.8as verzióját használjuk az utolsó alapértelmezett 4.7.2 helyett
+                </li>
+                <li class="list-group-item">
+                    MVC template-et használunk
+                </li>
+                <li class="list-group-item">
+                    Authentication: Individual Accounts
+                </li>
+                <li class="list-group-item">
+                    HTTPS-re prekonfigurálva
+                </li>
+                <li class="list-group-item">
+                    App_Data mappába bekerült egy (üres) .gitkeep file, hogy a GitHub pull zavartalanul működjön az új Roslynnal
+                </li>
+                <li class="list-group-item">
+                    BundelConfig.cs-ben a bootstrap style bundel-ek sima bundel-be kerültek
+                </li>
+                <li class="list-group-item">
+                    site.css-ben a body top-padding 50px-ről 70px-re lett módosítva, a bootstrap 5 navbar változásai miatt
+                </li>
+                <li class="list-group-item">
+                    az átláthatóság kedvéért a navigációs menü kikerült a _NavBar.cshtm partial view-ba
+                </li>
+                <li class="list-group-item">
+                    néhány színséma változtatás a site.css-ben, képzőintézményünk színeivel
+                </li>
+                <li class="list-group-item">
+                    a Home Controllerhez tartozó alap template részét képző Index, Contact és About viewk tartalma felülításra kerültek.
+                </li>
+                <li class="list-group-item">
+                    a _LoginPartial.cshtml lokalizálva lett, a frontend át lett írva bootstrap 5-re
+                </li>
+            </ul>
+        </p>
+    </div>
+</div>
