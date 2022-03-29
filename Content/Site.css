@@ -35,3 +35,16 @@ nav li a {
 nav li a:hover {
     color: #f23545 !important;
 }
+
+.list-group-item-verebely {
+    color: #f2b705;
+    background-color: #295fa6;
+}
+
+    .list-group-item-verebely.list-group-item-action:hover,
+    .list-group-item-verebely.list-group-item-action:focus {
+        color: white;
+        background-color: #295fa6;
+        border-color: #f23545;
+        border: 2px solid;
+    }
